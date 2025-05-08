@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔄 Encode & Decode Base64</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🔄 Base64 Encoder & Decoder</h2>
+
+    <label for="plainInput">Teks Biasa (Encode):</label>
+    <textarea id="plainInput" placeholder="Contoh: hai kamu"></textarea>
+    <button onclick="encodeBase64()">🔐 Encode ke Base64</button>
+
+    <label for="base64Input">Teks Base64 (Decode):</label>
+    <textarea id="base64Input" placeholder="Contoh: aGFpIGthbXU="></textarea>
+    <button onclick="decodeBase64()">🔓 Decode ke Teks Biasa</button>
+
+    <h3>📝 Hasil:</h3>
+    <div id="result" class="output">-</div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
